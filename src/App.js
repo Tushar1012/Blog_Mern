@@ -1,6 +1,6 @@
 import React from "react";
 // import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route,Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 
 import Topbar from "././components/topbar/Topbar";
@@ -12,6 +12,7 @@ import Register from "./pages/ragister/Register";
 function App() {
   const user = false;
   return (
+    // React router versionn 6 updated
     <Router>
       <Topbar />
 
